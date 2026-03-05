@@ -1,0 +1,44 @@
+# Dependencies
+frontend/node_modules/
+backend/vendor/
+backend/node_modules/
+
+# Environment files
+backend/.env
+frontend/.env.local
+frontend/.env
+
+# Laravel
+backend/storage/logs/*
+backend/storage/framework/cache/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/bootstrap/cache/*
+!backend/storage/logs/.gitkeep
+!backend/storage/framework/cache/.gitkeep
+!backend/storage/framework/sessions/.gitkeep
+!backend/storage/framework/views/.gitkeep
+!backend/bootstrap/cache/.gitkeep
+
+# Next.js
+frontend/.next/
+frontend/out/
+
+# Build
+frontend/tsconfig.tsbuildinfo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Composer
+composer.phar
+
+# Sensitive
+login-info.txt
